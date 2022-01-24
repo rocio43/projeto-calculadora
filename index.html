@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script language="JavaScript" src="main.js"></script>
+    <link rel="stylesheet" href="estilo.css">
+    <title>Calculadora Simples</title>
+</head>
+
+<body>
+    <form action="" name="calc">
+        <div id="calculadora">
+
+            <input type="text" id="visor" name="visor">
+            <div id="um">
+                <input type="button" value="7" class="b-borda" onclick="botao(value)">
+                <input type="button" value="8" class="b-borda" onclick="botao(value)">
+                <input type="button" value="9" class="b-borda" onclick="botao(value)">
+                <input type="button" value="/" class="b-borda" onclick="botao(value)">
+            </div>
+            <div id="dois">
+                <input type="button" value="4" class="b-borda" onclick="botao(value)">
+                <input type="button" value="5" class="b-borda" onclick="botao(value)">
+                <input type="button" value="6" class="b-borda" onclick="botao(value)">
+                <input type="button" value="*" class="b-borda" onclick="botao(value)">
+            </div>
+            <div id="tres">
+                <input type="button" value="1" class="b-borda" onclick="botao(value)">
+                <input type="button" value="2" class="b-borda" onclick="botao(value)">
+                <input type="button" value="3" class="b-borda" onclick="botao(value)">
+                <input type="button" value="-" class="b-borda" onclick="botao(value)">
+            </div>
+            <div id="quatro">
+                <input type="button" value="C" class="b-borda" onclick="reset()">
+                <input type="button" value="0" class="b-borda" onclick="botao(value)">
+                <input type="button" value="=" class="b-borda" onclick="calculo()">
+                <input type="button" value="+" class="b-borda" onclick="botao(value)">
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
